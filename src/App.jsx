@@ -15,6 +15,7 @@ function App() {
 
     setTransactions([...transactions, { amount, type }])
     setAmount('')
+    
     setType('income')
   }
 
