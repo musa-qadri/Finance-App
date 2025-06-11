@@ -27,8 +27,6 @@ function App() {
       <h1 className='text-2xl font-bold' >Accounting App</h1>
        
        <CallBack amount={amount} setAmount={setAmount} type={type} setType={setType} transactions={transactions} handleTransction={handleTransction} />
-      
-
     </>
   );
 }
